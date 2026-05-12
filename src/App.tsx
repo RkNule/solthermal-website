@@ -327,11 +327,10 @@ export default function SolthermalWebsite() {
         <div className="flex justify-center mb-14">
           <div className="rounded-[2rem] overflow-hidden bg-white shadow-sm border border-slate-200 p-4 lg:p-6 max-w-4xl">
             <img
-              src="/images/sol-workflows.png"
-              alt="HTS Workflow"
-              className="w-full h-auto object-contain cursor-zoom-in transition hover:scale-[1.01]"
-              onClick={() => setSelectedImage("/images/sol-workflows.png")}
-            />
+  src="/images/sol-workflows.png"
+  alt="HTS Workflow"
+  className="w-full h-auto object-contain"
+/>
           </div>
         </div>
 
