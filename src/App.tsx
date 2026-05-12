@@ -17,7 +17,7 @@ export default function SolthermalWebsite() {
             <img
               src="/images/sol-logo.png"
               alt="Solthermal"
-              className="w-36 lg:w-44 h-auto object-contain -ml-2"
+              className="w-44 lg:w-52 h-auto object-contain -ml-2"
             />
           </div>
 
@@ -213,283 +213,364 @@ export default function SolthermalWebsite() {
         </div>
       </section>
 
-      {/* ================================================= */}
-      {/* SOLUTION */}
-      {/* ================================================= */}
-      <section id="solution" className="py-32 bg-white overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6">
-          {/* TOP */}
-          <div className="grid lg:grid-cols-2 gap-24 items-center mb-24">
-            {/* LEFT */}
-            <div>
-              <p className="uppercase tracking-[0.28em] text-base font-medium text-lime-600 mb-6">
-                The Solution – HTS Panels
-              </p>
+     {/* ================================================= */}
+{/* SOLUTION */}
+{/* ================================================= */}
+<section id="solution" className="py-32 bg-white overflow-hidden">
+  <div className="max-w-7xl mx-auto px-6">
 
-              <h2 className="text-4xl lg:text-5xl font-bold leading-[1.1] mb-10 text-slate-900">
-                Reducing HVAC Energy
-                <br />
-                Consumption Through
-                <br />
-                Thermal Integration
-              </h2>
+    {/* TOP */}
+    <div className="mb-24">
 
-              <div className="space-y-8 text-slate-600 text-lg leading-relaxed">
-                <div>
-                  <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                    High Energy Efficiency
-                  </h3>
+      {/* TOP HEADING */}
+      <div className="max-w-4xl mb-16">
+        <p className="uppercase tracking-[0.28em] text-base font-medium text-lime-600 mb-6">
+          The Solution – HTS Panels
+        </p>
 
-                  <p>
-                    HTS Panels maximize thermal energy collection to directly
-                    supplement HVAC compressor load, supporting up to 45%
-                    reduction in electricity consumption across commercial
-                    cooling environments.
-                  </p>
-                </div>
+        <h2 className="text-4xl lg:text-5xl font-bold leading-[1.1] text-slate-900">
+          Reducing HVAC Energy
+          Consumption Through
+          Thermal Integration
+        </h2>
+      </div>
 
-                <div>
-                  <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                    Refrigeration Cycle Integration
-                  </h3>
+      {/* FEATURE CARDS */}
+      <div className="grid md:grid-cols-2 gap-6">
 
-                  <p>
-                    The system introduces solar-heated thermal energy into the
-                    refrigeration cycle, increasing refrigerant pressure and
-                    temperature while reducing compressor workload.
-                  </p>
-                </div>
-
-                <div>
-                  <h3 className="text-xl font-semibold text-slate-900 mb-3">
-                    Operational & Environmental Impact
-                  </h3>
-
-                  <p>
-                    HTS integration supports lower operational costs, faster
-                    return on investment, and reduced greenhouse gas emissions,
-                    contributing toward long-term sustainable infrastructure
-                    goals.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* RIGHT */}
-            <div className="rounded-[2rem] overflow-hidden bg-white p-6 flex items-center justify-center min-h-[650px]">
-  <img
-    src="/images/hts-panel-sketch.png"
-    alt="HTS Panel"
-    className="w-full h-auto object-contain"
-  />
-</div>
+        {/* CARD 1 */}
+        <div className="bg-[#f7f8f7] border border-slate-200 rounded-[1.5rem] p-8">
+          <div className="w-12 h-12 rounded-xl bg-lime-100 flex items-center justify-center mb-6">
+            <span className="text-lime-600 text-2xl">⚡</span>
           </div>
 
-          {/* HOW HTS WORKS */}
-          <div className="bg-[#f3f6ef] rounded-[2rem] p-16 overflow-hidden">
-            <div className="grid lg:grid-cols-2 gap-20 items-center">
-              {/* LEFT CONTENT */}
-              <div>
-                <p className="uppercase tracking-[0.28em] text-base font-medium text-lime-600 mb-6">
-                  HTS Integration
-                </p>
+          <h3 className="text-2xl font-semibold text-slate-900 mb-4">
+            High Energy Efficiency
+          </h3>
 
-                <h3 className="text-4xl lg:text-5xl font-bold leading-tight mb-8 text-slate-900">
-                  HTS Integration
-                  <br />
-                  Within HVAC Systems
-                </h3>
+          <p className="text-slate-600 leading-relaxed">
+            Maximizes thermal collection directly supplementing the HVAC
+            compressor load, supporting up to 45% reduction in electricity
+            consumption.
+          </p>
+        </div>
 
-                <div className="space-y-5 text-slate-600 text-lg leading-relaxed">
-                  <p>
-                    The HTS Panel is connected between the compressor and
-                    condenser within the refrigeration cycle of a VRF or
-                    chiller system.
-                  </p>
+        {/* CARD 2 */}
+        <div className="bg-[#f7f8f7] border border-slate-200 rounded-[1.5rem] p-8">
+          <div className="w-12 h-12 rounded-xl bg-lime-100 flex items-center justify-center mb-6">
+            <span className="text-lime-600 text-2xl">⟳</span>
+          </div>
 
-                  <p>
-                    Using solar thermal energy and controlled heat
-                    concentration, the panel adds thermal energy to the
-                    refrigerant gas before it returns to the outdoor unit.
-                  </p>
+          <h3 className="text-2xl font-semibold text-slate-900 mb-4">
+            Refrigeration Cycle Integration
+          </h3>
 
-                  <p>
-                    This controlled integration reduces compressor energy
-                    demand, helping improve HVAC efficiency while supporting
-                    lower electricity consumption during daytime operation.
-                  </p>
-                </div>
+          <p className="text-slate-600 leading-relaxed">
+            Adds pressure and temperature into the refrigeration cycle,
+            reducing compressor workload and improving operational efficiency.
+          </p>
+        </div>
 
-                {/* SPECIFICATIONS */}
-                <div className="mt-12 border-t border-slate-300 pt-8">
-                  <h4 className="text-xl font-semibold text-slate-900 mb-6">
-                    HTS Panel Specifications
-                  </h4>
+        {/* CARD 3 */}
+        <div className="bg-[#f7f8f7] border border-slate-200 rounded-[1.5rem] p-8">
+          <div className="w-12 h-12 rounded-xl bg-lime-100 flex items-center justify-center mb-6">
+            <span className="text-lime-600 text-2xl">₹</span>
+          </div>
 
-                  <div className="grid sm:grid-cols-2 gap-y-5 gap-x-10 text-slate-700">
-                    <div>
-                      <p className="text-sm uppercase tracking-wide text-slate-500 mb-1">
-                        Panel Size
-                      </p>
+          <h3 className="text-2xl font-semibold text-slate-900 mb-4">
+            Significant Cost Savings
+          </h3>
 
-                      <p className="text-lg font-medium">8 ft × 4 ft</p>
-                    </div>
+          <p className="text-slate-600 leading-relaxed">
+            Drives immediate reduction in operational expenditure with
+            faster ROI realization for commercial infrastructure.
+          </p>
+        </div>
 
-                    <div>
-                      <p className="text-sm uppercase tracking-wide text-slate-500 mb-1">
-                        Weight
-                      </p>
+        {/* CARD 4 */}
+        <div className="bg-[#f7f8f7] border border-slate-200 rounded-[1.5rem] p-8">
+          <div className="w-12 h-12 rounded-xl bg-lime-100 flex items-center justify-center mb-6">
+            <span className="text-lime-600 text-2xl">🌿</span>
+          </div>
 
-                      <p className="text-lg font-medium">95 kg</p>
-                    </div>
+          <h3 className="text-2xl font-semibold text-slate-900 mb-4">
+            Environmental Impact
+          </h3>
 
-                    <div>
-                      <p className="text-sm uppercase tracking-wide text-slate-500 mb-1">
-                        Cooling Capacity
-                      </p>
+          <p className="text-slate-600 leading-relaxed">
+            Supports sustainable cooling infrastructure by lowering
+            greenhouse gas emissions and improving energy efficiency.
+          </p>
+        </div>
 
-                      <p className="text-lg font-medium">7.5 Ton / 10 HP</p>
-                    </div>
+      </div>
+    </div>
 
-                    <div>
-                      <p className="text-sm uppercase tracking-wide text-slate-500 mb-1">
-                        HVAC Compatibility
-                      </p>
+    {/* HOW HTS WORKS */}
+    <div className="bg-[#f3f6ef] rounded-[2rem] p-16 overflow-hidden">
 
-                      <p className="text-lg font-medium">
-                        VRF & Chiller Systems
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
+      <div className="max-w-5xl mx-auto">
 
-              {/* RIGHT IMAGE */}
-             <div className="rounded-[2rem] overflow-hidden bg-white shadow-sm border border-slate-200 p-4 lg:p-6">
-  <img
-    src="/images/hts-panel-sol.png"
-    alt="HTS Workflow"
-    className="w-full h-auto object-contain"
-  />
-</div>
-            </div>
+        {/* HEADING */}
+        <div className="text-center mb-14">
+          <p className="uppercase tracking-[0.28em] text-base font-medium text-lime-600 mb-6">
+            HTS Integration
+          </p>
+
+          <h3 className="text-4xl lg:text-5xl font-bold leading-tight text-slate-900">
+            HTS Integration
+            Within HVAC Systems
+          </h3>
+        </div>
+
+        {/* IMAGE */}
+        <div className="flex justify-center mb-14">
+          <div className="rounded-[2rem] overflow-hidden bg-white shadow-sm border border-slate-200 p-4 lg:p-6 max-w-4xl">
+            <img
+              src="/images/sol-workflows.png"
+              alt="HTS Workflow"
+              className="w-full h-auto object-contain cursor-zoom-in transition hover:scale-[1.01]"
+              onClick={() => setSelectedImage("/images/sol-workflows.png")}
+            />
           </div>
         </div>
-      </section>
 
-      {/* ================================================= */}
-      {/* HVAC COMPARISON */}
-      {/* ================================================= */}
-      <section id="benefits" className="py-32 bg-[#f5f7f2]">
-        <div className="max-w-7xl mx-auto px-6">
-          {/* HEADING */}
-          <div className="max-w-5xl mb-20">
-            <p className="uppercase tracking-[0.28em] text-base font-medium text-lime-600 mb-6">
-              System Comparison
+        {/* BOTTOM CONTENT */}
+        <div className="grid lg:grid-cols-2 gap-16 mt-14 items-start">
+
+          {/* DESCRIPTION */}
+          <div className="space-y-5 text-slate-600 text-lg leading-relaxed">
+            <p>
+              The HTS Panel is connected between the compressor and condenser
+              within the refrigeration cycle of a VRF or chiller system.
             </p>
 
-            <h2 className="text-5xl lg:text-6xl font-bold leading-tight text-slate-900 mb-8">
-              Conventional HVAC Systems
-              <br />
-              vs Hybrid HVAC Systems
-            </h2>
+            <p>
+              Using solar thermal energy and controlled heat concentration,
+              the panel adds thermal energy to the refrigerant gas before it
+              returns to the outdoor unit.
+            </p>
 
-            <p className="text-lg text-slate-600 leading-relaxed max-w-4xl">
-              Hybrid Thermal Solar integration helps improve cooling
-              performance, reduce electricity consumption, and support more
-              energy-efficient HVAC operations across commercial and industrial
-              infrastructure.
+            <p>
+              This controlled integration reduces compressor energy demand,
+              helping improve HVAC efficiency while supporting lower electricity
+              consumption during daytime operation.
             </p>
           </div>
 
-          {/* COMPARISON GRID */}
-          <div className="grid lg:grid-cols-2 gap-8">
-            {/* CONVENTIONAL */}
-            <div className="bg-[#1f2521] rounded-[2rem] p-12 text-white">
-              <p className="uppercase tracking-[0.28em] text-base font-medium text-lime-300 mb-8">
-                Conventional HVAC Systems
-              </p>
+          {/* SPECIFICATIONS */}
+          <div>
+            <h4 className="text-2xl font-semibold text-slate-900 mb-8">
+              HTS Panel Specifications
+            </h4>
 
-              <div className="space-y-6 text-lg text-white/75 leading-relaxed">
-                <p>• Consumes high amounts of electricity</p>
+            <div className="grid sm:grid-cols-2 gap-6 text-slate-700">
 
-                <p>• COP in range of 3.5 – 4.5</p>
-
-                <p>
-                  • Capacity reduces in high ambient temperatures
+              <div className="bg-white rounded-2xl border border-slate-200 p-6">
+                <p className="text-sm uppercase tracking-wide text-slate-500 mb-2">
+                  Panel Size
                 </p>
 
-                <p>• Higher maintenance requirements</p>
-
-                <p>
-                  • Additional safety factor required during peak summer
-                  conditions
-                </p>
-
-                <p>• No carbon credit advantages</p>
-
-                <p>• 28% GST with no accelerated depreciation</p>
-              </div>
-            </div>
-
-            {/* HYBRID */}
-            <div className="bg-white rounded-[2rem] p-12 border border-slate-200 shadow-sm">
-              <p className="uppercase tracking-[0.28em] text-base font-medium text-lime-600 mb-8">
-                Hybrid HVAC Systems
-              </p>
-
-              <div className="space-y-6 text-lg text-slate-700 leading-relaxed">
-                <p>
-                  <span className="font-semibold text-lime-600">
-                    ~40% lower power consumption
-                  </span>
-                </p>
-
-                <p>
-                  <span className="font-semibold text-lime-600">
-                    COP greater than 6
-                  </span>{" "}
-                  – higher operational efficiency
-                </p>
-
-                <p>
-                  <span className="font-semibold text-lime-600">
-                    No deration of capacity
-                  </span>{" "}
-                  during high ambient temperatures
-                </p>
-
-                <p>
-                  <span className="font-semibold text-lime-600">
-                    Lower maintenance
-                  </span>
-                </p>
-
-                <p>
-                  <span className="font-semibold text-lime-600">
-                    Designed cooling capacity
-                  </span>{" "}
-                  maintained across operating conditions
-                </p>
-
-                <p>
-                  <span className="font-semibold text-lime-600">
-                    Green building product
-                  </span>{" "}
-                  with sustainability advantages
-                </p>
-
-                <p>
-                  <span className="font-semibold text-lime-600">
-                    12% GST and accelerated depreciation benefits
-                  </span>
+                <p className="text-xl font-semibold">
+                  8 ft × 4 ft
                 </p>
               </div>
+
+              <div className="bg-white rounded-2xl border border-slate-200 p-6">
+                <p className="text-sm uppercase tracking-wide text-slate-500 mb-2">
+                  Weight
+                </p>
+
+                <p className="text-xl font-semibold">
+                  95 kg
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl border border-slate-200 p-6">
+                <p className="text-sm uppercase tracking-wide text-slate-500 mb-2">
+                  Cooling Capacity
+                </p>
+
+                <p className="text-xl font-semibold">
+                  7.5 Ton / 10 HP
+                </p>
+              </div>
+
+              <div className="bg-white rounded-2xl border border-slate-200 p-6">
+                <p className="text-sm uppercase tracking-wide text-slate-500 mb-2">
+                  HVAC Compatibility
+                </p>
+
+                <p className="text-xl font-semibold">
+                  VRF & Chiller Systems
+                </p>
+              </div>
+
             </div>
           </div>
-        </div>
-      </section>
 
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
+      {/* ================================================= */}
+{/* HVAC COMPARISON */}
+{/* ================================================= */}
+<section id="benefits" className="py-32 bg-[#f5f7f2]">
+  <div className="max-w-7xl mx-auto px-6">
+
+    {/* HEADING */}
+    <div className="max-w-5xl mb-20">
+      <p className="uppercase tracking-[0.28em] text-base font-medium text-lime-600 mb-6">
+        System Comparison
+      </p>
+
+      <h2 className="text-5xl lg:text-6xl font-bold leading-tight text-slate-900 mb-8">
+        Conventional HVAC Systems
+        <br />
+        vs Hybrid HVAC Systems
+      </h2>
+
+      <p className="text-lg text-slate-600 leading-relaxed max-w-4xl">
+        Hybrid Thermal Solar integration improves operational efficiency,
+        lowers electricity consumption, and supports sustainable HVAC
+        infrastructure for commercial environments.
+      </p>
+    </div>
+
+    {/* COMPARISON TABLE */}
+    <div className="overflow-hidden rounded-[2rem] border border-slate-200 bg-white shadow-sm">
+
+      {/* TOP HEADERS */}
+      <div className="grid grid-cols-3">
+
+        <div className="bg-slate-100 p-8 border-b border-slate-200">
+        </div>
+
+        <div className="bg-[#1f2521] p-8 border-b border-slate-200 text-center">
+          <p className="text-white text-2xl font-semibold">
+            Conventional
+          </p>
+        </div>
+
+        <div className="bg-lime-500 p-8 border-b border-slate-200 text-center">
+          <p className="text-black text-2xl font-semibold">
+            Hybrid HVAC
+          </p>
+        </div>
+
+      </div>
+
+      {/* ROW 1 */}
+      <div className="grid grid-cols-3 border-b border-slate-200">
+
+        <div className="p-8 bg-slate-50 font-semibold text-slate-900">
+          Power Consumption
+        </div>
+
+        <div className="p-8 text-slate-600">
+          High electricity consumption
+        </div>
+
+        <div className="p-8 text-slate-900 font-medium">
+          ~40% lower power consumption
+        </div>
+
+      </div>
+
+      {/* ROW 2 */}
+      <div className="grid grid-cols-3 border-b border-slate-200">
+
+        <div className="p-8 bg-slate-50 font-semibold text-slate-900">
+          COP Efficiency
+        </div>
+
+        <div className="p-8 text-slate-600">
+          COP range of 3.5 – 4.5
+        </div>
+
+        <div className="p-8 text-slate-900 font-medium">
+          COP greater than 6
+        </div>
+
+      </div>
+
+      {/* ROW 3 */}
+      <div className="grid grid-cols-3 border-b border-slate-200">
+
+        <div className="p-8 bg-slate-50 font-semibold text-slate-900">
+          Ambient Temperature Performance
+        </div>
+
+        <div className="p-8 text-slate-600">
+          Capacity reduces during high temperatures
+        </div>
+
+        <div className="p-8 text-slate-900 font-medium">
+          Maintains designed cooling capacity
+        </div>
+
+      </div>
+
+      {/* ROW 4 */}
+      <div className="grid grid-cols-3 border-b border-slate-200">
+
+        <div className="p-8 bg-slate-50 font-semibold text-slate-900">
+          Maintenance
+        </div>
+
+        <div className="p-8 text-slate-600">
+          Higher maintenance requirements
+        </div>
+
+        <div className="p-8 text-slate-900 font-medium">
+          Lower maintenance requirements
+        </div>
+
+      </div>
+
+      {/* ROW 5 */}
+      <div className="grid grid-cols-3 border-b border-slate-200">
+
+        <div className="p-8 bg-slate-50 font-semibold text-slate-900">
+          Sustainability
+        </div>
+
+        <div className="p-8 text-slate-600">
+          No sustainability benefits
+        </div>
+
+        <div className="p-8 text-slate-900 font-medium">
+          Green building product advantages
+        </div>
+
+      </div>
+
+      {/* ROW 6 */}
+      <div className="grid grid-cols-3">
+
+        <div className="p-8 bg-slate-50 font-semibold text-slate-900">
+          Financial Benefits
+        </div>
+
+        <div className="p-8 text-slate-600">
+          28% GST with no accelerated depreciation
+        </div>
+
+        <div className="p-8 text-slate-900 font-medium">
+          5% GST with accelerated depreciation benefits
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
       {/* ================================================= */}
       {/* INDUSTRIES */}
       {/* ================================================= */}
