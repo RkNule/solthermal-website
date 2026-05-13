@@ -140,13 +140,13 @@ export default function SolthermalWebsite() {
           <div>
 
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-[1.15] mb-8 lg:mb-10 text-white">
-              Global Cooling Demand
-              <br />
-              Continues To Rise
+              The HVAC Consumption Challenge
             </h2>
 
             <p className="uppercase tracking-[0.28em] text-sm sm:text-base font-medium text-lime-300 mb-5 lg:mb-6">
-              The HVAC Consumption Challenge
+              Global Cooling Demand
+              <br />
+              Continues To Rise
             </p>
 
             <div className="space-y-6 lg:space-y-8 text-white/75 text-base sm:text-lg leading-relaxed">
